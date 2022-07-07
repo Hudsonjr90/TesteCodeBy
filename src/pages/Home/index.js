@@ -8,7 +8,7 @@ function Home() {
       </header>
       <div className="content">
         <p>
-          Escolha uma das situações do carrinho de compras
+             Carrinho de compras
         </p>
         <Link to="/shoppingcartunder10">
           <button className='btn' >Abaixo de R$ 10,00</button>
