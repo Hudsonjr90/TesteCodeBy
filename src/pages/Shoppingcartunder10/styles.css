@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, #root {
+    min-height: 100%;
+  }
+  
+  body, input, button {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: #d3d3d3;
+    font-size: 10px;
+  }
+  
+  .container {
+    border-width: 1;
+    border-style: solid;
+    border-color:#fff ;
+    border-radius: 16px;  
+    margin: 1px auto 0;
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: #000;
+  }
+
+  .header {
+    min-width: 100%;
+    font-size: 30px;
+    align-items: center;
+  }
+
+  .container strong {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .itemslist {
+
+  }
+
+  .itemslist li { 
+    list-style-type: none; 
+  }
+
+  .showitem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 900px;
+    align-items: center;    
+  }
+
+  .showitem img {
+    border-width: 1;
+    border-style: solid;
+    border-color: #d3d3d3;
+    width: 150px;
+    margin: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .description {
+    padding: 16px;
+    margin-bottom: 8px;
+    line-height: 35px;
+  }
+
+  .description h2 {
+    font-size: 15px;
+    color: #c4c4c4;
+  }
+  
+  .content {
+    width: 100%;
+    background: #FFF;
+    margin-top: 0px;
+    border-radius: 4px;
+    padding: 5px;    
+  }
+
+  .totalcart {
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .totalcart .total {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .totalcart .value {
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+
+  .checklabel {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .checkshipping {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    background-color: #C7FFA6;
+    font-size: 20px;
+    color: #217A00;
+    border-radius: 25px;
+    padding: 10px;    
+    margin-bottom: 24px;
+  }
+  
+  .final {
+    border: 0;
+    border-radius: 8px;
+    width: 93%;
+    height: 64px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #3B74F2;
+    color: #fff;
+    cursor: pointer;
+    margin: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .final:hover {
+    background: #3064D7;
+  }
